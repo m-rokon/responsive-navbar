@@ -1,0 +1,26 @@
+{
+  "name": "responsive-navbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build -i ./src/style.css -o ./assets/css/tailwind.css",
+    "watch": "npx tailwindcss -i ./src/style.css -o ./assets/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-rokon/responsive-navbar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-rokon/responsive-navbar/issues"
+  },
+  "homepage": "https://github.com/m-rokon/responsive-navbar#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
